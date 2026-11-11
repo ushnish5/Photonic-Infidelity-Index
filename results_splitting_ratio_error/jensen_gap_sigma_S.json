@@ -1,0 +1,23 @@
+{
+ "channel": "sigma_S",
+ "summary": {
+  "small": {
+   "n_points": 550,
+   "max_gap_E": 0.004634675706,
+   "max_rel_gap_E": 0.008708768241854323,
+   "max_rel_gap_E_off_plateau": 0.008708768241854323,
+   "mean_rel_gap_E_off_plateau": 0.002658297274656233,
+   "max_I_rms_minus_I_avg": 0.04274020899999975,
+   "min_gap_E": 3.219650624e-17
+  },
+  "large": {
+   "n_points": 550,
+   "max_gap_E": 0.00640223233,
+   "max_rel_gap_E": 0.008502093513950986,
+   "max_rel_gap_E_off_plateau": 0.008502093513950986,
+   "mean_rel_gap_E_off_plateau": 0.0032363372348717637,
+   "max_I_rms_minus_I_avg": 5.867849218,
+   "min_gap_E": 3.219650624e-17
+  }
+ }
+}

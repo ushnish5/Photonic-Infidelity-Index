@@ -1,0 +1,289 @@
+{
+ "calibration_N": [
+  20,
+  28,
+  38,
+  53,
+  72,
+  100,
+  138,
+  190,
+  263,
+  362,
+  500
+ ],
+ "held_out_N": [
+  24,
+  33,
+  45,
+  62,
+  85,
+  117,
+  162,
+  224,
+  309,
+  425
+ ],
+ "levels": {
+  "worst": 1.0,
+  "mid": 0.5,
+  "low": 0.1
+ },
+ "max_vector": [
+  0.25,
+  0.1,
+  1.0,
+  0.263
+ ],
+ "n_unitaries": 10,
+ "chips": 40,
+ "seeds": {
+  "test1": 20261013,
+  "calibration": 20261014,
+  "held_out": 20261017
+ },
+ "deviation_summary": {
+  "four_channel/worst/calibration": {
+   "floor_real": {
+    "n": 7,
+    "mean_abs": 0.07903000641273152,
+    "max_abs": 0.1182561830625225,
+    "n_within_2se": 1
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.12429115673713974,
+    "max_abs": 0.394047445698707,
+    "n_within_2se": 4
+   },
+   "simple_real": {
+    "n": 7,
+    "mean_abs": 0.6857455737195324,
+    "max_abs": 3.9514055585113903,
+    "n_within_2se": 0
+   }
+  },
+  "four_channel/worst/held_out": {
+   "floor_real": {
+    "n": 7,
+    "mean_abs": 0.08848572455805194,
+    "max_abs": 0.1380427378292695,
+    "n_within_2se": 0
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.12317264583907195,
+    "max_abs": 0.31783165446268713,
+    "n_within_2se": 3
+   },
+   "simple_real": {
+    "n": 7,
+    "mean_abs": 2.766299333955224,
+    "max_abs": 17.713429726794523,
+    "n_within_2se": 0
+   }
+  },
+  "four_channel/mid/calibration": {
+   "floor_real": {
+    "n": 11,
+    "mean_abs": 0.016175831784700345,
+    "max_abs": 0.02170870473575941,
+    "n_within_2se": 3
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.12272038632127683,
+    "max_abs": 0.6830900876713056,
+    "n_within_2se": 1
+   },
+   "simple_real": {
+    "n": 11,
+    "mean_abs": 0.024798315941060443,
+    "max_abs": 0.086866315983936,
+    "n_within_2se": 1
+   }
+  },
+  "four_channel/mid/held_out": {
+   "floor_real": {
+    "n": 10,
+    "mean_abs": 0.023361061728187964,
+    "max_abs": 0.05482141021429886,
+    "n_within_2se": 1
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.0890207271413915,
+    "max_abs": 0.49244282844434295,
+    "n_within_2se": 0
+   },
+   "simple_real": {
+    "n": 10,
+    "mean_abs": 0.027397908479467225,
+    "max_abs": 0.08200035706588661,
+    "n_within_2se": 0
+   }
+  },
+  "four_channel/low/calibration": {
+   "floor_real": {
+    "n": 11,
+    "mean_abs": 0.000665671274931468,
+    "max_abs": 0.0009236270538802997,
+    "n_within_2se": 3
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.0007760455550171158,
+    "max_abs": 0.0013867337413187276,
+    "n_within_2se": 1
+   },
+   "simple_real": {
+    "n": 11,
+    "mean_abs": 0.0006790478270342148,
+    "max_abs": 0.0009263134609280372,
+    "n_within_2se": 3
+   }
+  },
+  "four_channel/low/held_out": {
+   "floor_real": {
+    "n": 10,
+    "mean_abs": 0.000643922036697609,
+    "max_abs": 0.0009516142531742328,
+    "n_within_2se": 2
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.0007517529263310919,
+    "max_abs": 0.001359414040392238,
+    "n_within_2se": 2
+   },
+   "simple_real": {
+    "n": 10,
+    "mean_abs": 0.0006556781141314188,
+    "max_abs": 0.0009557033876897157,
+    "n_within_2se": 2
+   }
+  },
+  "lossless/worst/calibration": {
+   "floor_real": {
+    "n": 11,
+    "mean_abs": 0.07493796811046423,
+    "max_abs": 0.11919060692313321,
+    "n_within_2se": 4
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.12324150837506037,
+    "max_abs": 0.3669525970951739,
+    "n_within_2se": 3
+   },
+   "simple_real": {
+    "n": 11,
+    "mean_abs": 122.28254726538576,
+    "max_abs": 690.1186897350686,
+    "n_within_2se": 0
+   }
+  },
+  "lossless/worst/held_out": {
+   "floor_real": {
+    "n": 10,
+    "mean_abs": 0.06770256619493478,
+    "max_abs": 0.1534051671562771,
+    "n_within_2se": 4
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.125062686432789,
+    "max_abs": 0.3711770450619709,
+    "n_within_2se": 4
+   },
+   "simple_real": {
+    "n": 10,
+    "mean_abs": 684.9056026253961,
+    "max_abs": 3333.5105077448206,
+    "n_within_2se": 0
+   }
+  },
+  "lossless/mid/calibration": {
+   "floor_real": {
+    "n": 11,
+    "mean_abs": 0.027057598513927427,
+    "max_abs": 0.11940220109197172,
+    "n_within_2se": 0
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.11995029764462277,
+    "max_abs": 0.7137076783457653,
+    "n_within_2se": 1
+   },
+   "simple_real": {
+    "n": 11,
+    "mean_abs": 0.035964996508914264,
+    "max_abs": 0.197756997605121,
+    "n_within_2se": 0
+   }
+  },
+  "lossless/mid/held_out": {
+   "floor_real": {
+    "n": 10,
+    "mean_abs": 0.019460481230298376,
+    "max_abs": 0.02857217723978716,
+    "n_within_2se": 1
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.09125813063576267,
+    "max_abs": 0.493717524688013,
+    "n_within_2se": 2
+   },
+   "simple_real": {
+    "n": 10,
+    "mean_abs": 0.022928969591174485,
+    "max_abs": 0.039693641436593215,
+    "n_within_2se": 0
+   }
+  },
+  "lossless/low/calibration": {
+   "floor_real": {
+    "n": 11,
+    "mean_abs": 0.0007252536744353333,
+    "max_abs": 0.0013066075069721927,
+    "n_within_2se": 0
+   },
+   "floor_surr": {
+    "n": 11,
+    "mean_abs": 0.0007999046211880052,
+    "max_abs": 0.001662201471519189,
+    "n_within_2se": 2
+   },
+   "simple_real": {
+    "n": 11,
+    "mean_abs": 0.0007383962557049608,
+    "max_abs": 0.0013092635940394708,
+    "n_within_2se": 0
+   }
+  },
+  "lossless/low/held_out": {
+   "floor_real": {
+    "n": 10,
+    "mean_abs": 0.0006838860140196654,
+    "max_abs": 0.0011020005092454706,
+    "n_within_2se": 1
+   },
+   "floor_surr": {
+    "n": 10,
+    "mean_abs": 0.0006484463290203766,
+    "max_abs": 0.0015597950269998202,
+    "n_within_2se": 4
+   },
+   "simple_real": {
+    "n": 10,
+    "mean_abs": 0.0006955014001128117,
+    "max_abs": 0.0011060452821422596,
+    "n_within_2se": 1
+   }
+  }
+ },
+ "identity_max_abs_residual_lossless": 4.440892098500626e-16,
+ "note": "realised-I variants have no fitted parameters; the surrogate-I variant is in-sample at calibration sizes and out-of-sample at held-out sizes"
+}

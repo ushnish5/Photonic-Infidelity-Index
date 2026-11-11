@@ -1,0 +1,49 @@
+{
+ "comparisons": [
+  {
+   "comparison": "big vs small range, mu_L=0.5 dB, N=100",
+   "overlap_sigma_eff_max_dB": 0.263,
+   "n_points": 50,
+   "max_abs_dE": 0.0010410789838760758,
+   "max_abs_z": 2.465303924349122,
+   "rms_z": 0.9832289401208592,
+   "mean_abs_dE": 0.00026186214824895073,
+   "n_unitaries": 25,
+   "flagged": false
+  },
+  {
+   "comparison": "big vs small range, mu_L=0.75 dB, N=100",
+   "overlap_sigma_eff_max_dB": 0.263,
+   "n_points": 50,
+   "max_abs_dE": 0.0012280401680682118,
+   "max_abs_z": 4.451080179822292,
+   "rms_z": 1.3101619257410775,
+   "mean_abs_dE": 0.0003399426706289027,
+   "n_unitaries": 25,
+   "flagged": false
+  },
+  {
+   "comparison": "big vs small range, mu_L=1 dB, N=100",
+   "overlap_sigma_eff_max_dB": 0.263,
+   "n_points": 50,
+   "max_abs_dE": 0.0010867200101550357,
+   "max_abs_z": 2.921515222497709,
+   "rms_z": 1.107199823571138,
+   "mean_abs_dE": 0.0002996884039695183,
+   "n_unitaries": 25,
+   "flagged": false
+  },
+  {
+   "comparison": "N-panel vs mu_L-panel (small range), mu_L=0.5 dB, N=100",
+   "overlap_sigma_eff_max_dB": 0.263,
+   "n_points": 50,
+   "max_abs_dE": 0.0009361453710093848,
+   "max_abs_z": 2.46609980607133,
+   "rms_z": 1.1053214680671009,
+   "mean_abs_dE": 0.00029373151792328356,
+   "n_unitaries": 25,
+   "flagged": false
+  }
+ ],
+ "note": "paired per-unitary difference z = mean/s.e.m.; flagged if RMS z > 2 (pure noise: ~1) or max |z| > 5; unreliable for < ~10 unitaries"
+}

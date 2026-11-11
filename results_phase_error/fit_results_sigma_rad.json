@@ -1,0 +1,107 @@
+{
+ "channel": "sigma_rad",
+ "params": {
+  "s_{\\phi,0}": 9.837060557766982,
+  "p_{\\phi}": 0.5055426286022983
+ },
+ "params_bootstrap_sd": {
+  "s_{\\phi,0}": 0.002446649821168008,
+  "p_{\\phi}": 0.0003505849401503865
+ },
+ "params_ci95": {
+  "s_{\\phi,0}": [
+   9.831746614285827,
+   9.841793065662714
+  ],
+  "p_{\\phi}": [
+   0.5048366090636839,
+   0.506229965376565
+  ]
+ },
+ "fit_range": [
+  0.0,
+  0.25
+ ],
+ "evaluated_unrefitted_on": [
+  0.0,
+  0.5
+ ],
+ "fitted_column": "E_rms",
+ "fit_space": "E (unweighted; I_ph is computed from the fitted E afterwards)",
+ "median_se_E_rms": 0.0008834615816,
+ "N0": 100,
+ "plateau_cut": 1.2,
+ "n_bootstrap": 200,
+ "n_unitaries": 25,
+ "n_points_fit": 550,
+ "metrics": {
+  "small": {
+   "all": {
+    "n": 550,
+    "RMSE": 0.0034020615859394676,
+    "NRMSE": 0.0024047169867673595,
+    "MAE": 0.002814573511667942,
+    "R2": 0.999940884808946,
+    "MaxAbsDev": 0.00856315505976768,
+    "MARE": 0.00419748908896602,
+    "MeanBias": -0.00035249670571373554
+   },
+   "off_plateau": {
+    "n": 367,
+    "RMSE": 0.0030742874959799067,
+    "NRMSE": 0.002565141201797572,
+    "MAE": 0.00249619906190662,
+    "R2": 0.999923130502745,
+    "MaxAbsDev": 0.00856315505976768,
+    "MARE": 0.005025996579083552,
+    "MeanBias": 0.0011716999921533478
+   }
+  },
+  "large": {
+   "all": {
+    "n": 550,
+    "RMSE": 0.004358175523683968,
+    "NRMSE": 0.003079802319425406,
+    "MAE": 0.003009339365928314,
+    "R2": 0.9998869768089949,
+    "MaxAbsDev": 0.018007156752575026,
+    "MARE": 0.0032253525769500298,
+    "MeanBias": -0.0017851351846045111
+   },
+   "off_plateau": {
+    "n": 206,
+    "RMSE": 0.0034474294918502087,
+    "NRMSE": 0.0028787864875656484,
+    "MAE": 0.002617502450690066,
+    "R2": 0.999912727315194,
+    "MaxAbsDev": 0.011675019990117441,
+    "MARE": 0.004628126296971754,
+    "MeanBias": 0.0004598013087258799
+   }
+  }
+ },
+ "data_files": [
+  "sensitivity_sigma_rad_small_curves.csv",
+  "sensitivity_sigma_rad_large_curves.csv"
+ ],
+ "jensen_gap": {
+  "small": {
+   "n_points": 550,
+   "max_gap_E": 0.009884861471,
+   "max_rel_gap_E": 0.016030139531539467,
+   "max_rel_gap_E_off_plateau": 0.016030139531539467,
+   "mean_rel_gap_E_off_plateau": 0.0055722564452924134,
+   "max_I_rms_minus_I_avg": 1.5492065130000006,
+   "min_gap_E": 3.219650624e-17
+  },
+  "large": {
+   "n_points": 550,
+   "max_gap_E": 0.009994540879,
+   "max_rel_gap_E": 0.01618853944228167,
+   "max_rel_gap_E_off_plateau": 0.01618853944228167,
+   "mean_rel_gap_E_off_plateau": 0.005719419524133813,
+   "max_I_rms_minus_I_avg": 3.8206409299999997,
+   "min_gap_E": 3.219650624e-17
+  }
+ }
+}
